@@ -7953,6 +7953,7 @@ __metadata:
     "@safe-global/safe-deployments": "npm:1.37.23"
     "@solana/spl-token": "npm:^0.4.9"
     "@solana/web3.js": "npm:^1.95.4"
+    "@tvl-labs/arcadia-sdk": "npm:^0.0.3"
     "@types/mocha": "npm:^10.0.1"
     "@types/node": "npm:^18.14.5"
     "@types/sinon": "npm:^17.0.1"
@@ -15958,6 +15959,18 @@ __metadata:
   version: 1.0.4
   resolution: "@tsconfig/node16@npm:1.0.4"
   checksum: 10/202319785901f942a6e1e476b872d421baec20cf09f4b266a1854060efbf78cde16a4d256e8bc949d31e6cd9a90f1e8ef8fb06af96a65e98338a2b6b0de0a0ff
+  languageName: node
+  linkType: hard
+
+"@tvl-labs/arcadia-sdk@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@tvl-labs/arcadia-sdk@npm:0.0.3"
+  dependencies:
+    "@uniswap/permit2-sdk": "npm:^1.2.0"
+    ethers-v6: "npm:ethers@^6.7.1"
+  peerDependencies:
+    ethers: ^5.7.0
+  checksum: 10/077ee637a01c5ff7c9c81a8bb8f5427a0bc536f06e3b7a906973033df2658afdec1c2a9a61b7fdf0c938a0cd37cb74126dac48ba5ac623262b9a9415254a1b2d
   languageName: node
   linkType: hard
 
